@@ -2,10 +2,9 @@
 import React from "react";
 import { Twitter, Facebook, Instagram } from "lucide-react";
 import { Whatsapp } from "./WhataappSvg";
-import { usePathname } from "next/navigation";
 export const Footer = ({className=''}) => {
   return (
-    <footer className={`flex flex-col gap-3 bg-transparent py-8 text-white mt-auto ${className}`}>
+    <footer className={`flex flex-col gap-3 bg-transparent py-3 text-white mt-auto ${className}`}>
       <div className="container mx-auto text-center">
         <p className="mb-4">
           &copy; 2017 - 2023. TM Talent Management. All Rights Reserved.

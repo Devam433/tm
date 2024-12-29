@@ -49,7 +49,7 @@ export default function CareerPage() {
       </section>
 
 
-      <div className="mt-12 mx-auto mb-12">
+      <div className="mt-12 mx-auto mb-20">
           <a
             href="#book-now" 
             className="bg-transparent border-2 border-white text-white py-2 px-8 rounded-full text-lg hover:bg-white hover:text-black transition duration-300 mt-44"

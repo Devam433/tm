@@ -28,7 +28,7 @@ export default function Navigation() {
   };
 
   return (
-    <div className="relative pb-7 z-50">
+    <div className="relative pb-7 z-50 ">
       {/* Navbar */}
       <Navbar maxWidth="full" className="shadow-md bg-transparent ">
         <div className="flex w-full justify-between items-center">
@@ -78,7 +78,7 @@ export default function Navigation() {
       {isMenuOpen && (
         <div
           className="absolute top-full left-0 w-full bg-black bg-opacity-90 shadow-lg
-          sm:hidden transition-transform duration-300 ease-in-out"
+          sm:hidden transition-transform duration-300 ease-in-out mt-[-30px]"
         >
           {menuItems.map((item, index) => (
             <Link
