@@ -47,17 +47,19 @@ export default function CareerPage() {
           </div>
         </div>
       </section>
-
-
-      <div className="mt-12 mx-auto mb-20">
+        <div className="mt-12 mx-auto mb-20 flex flex-col gap-5 justify-center">
+        <div className="text-white text-2xl">
+            Want to be managed by us ?
+        </div>
+        <div className="mt-1 hover:cursor-pointer mx-auto">
           <a
-            href="#book-now" 
+            href="https://wa.me/7637890236" target="_blank"
             className="bg-transparent border-2 border-white text-white py-2 px-8 rounded-full text-lg hover:bg-white hover:text-black transition duration-300 mt-44"
           >
-            Want to be managed by us ?
+            Click Here
           </a>
         </div>
-
+        </div>
     </main>
   );
 }
